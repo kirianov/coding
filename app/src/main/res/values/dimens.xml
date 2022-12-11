@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ListItemOddPaddingLeft">16dp</dimen>
+    <dimen name="ListItemOddPaddingTop">8dp</dimen>
+    <dimen name="ListItemOddPaddingRight">8dp</dimen>
+    <dimen name="ListItemOddPaddingBottom">8dp</dimen>
+    <dimen name="ListItemOddSchoolNameTextSize">16sp</dimen>
+    <dimen name="ListItemOddParagraphTextSize">14sp</dimen>
+    <dimen name="ListItemOddLocationTextSize">12sp</dimen>
+    <dimen name="ListItemOddPhoneNumberTextSize">12sp</dimen>
+
+    <dimen name="ListItemEvenPaddingLeft">8dp</dimen>
+    <dimen name="ListItemEvenPaddingTop">8dp</dimen>
+    <dimen name="ListItemEvenPaddingRight">8dp</dimen>
+    <dimen name="ListItemEvenPaddingBottom">8dp</dimen>
+    <dimen name="ListItemEvenSchoolNameTextSize">14sp</dimen>
+    <dimen name="ListItemEvenParagraphTextSize">12sp</dimen>
+    <dimen name="ListItemEvenLocationTextSize">12sp</dimen>
+    <dimen name="ListItemEvenPhoneNumberTextSize">12sp</dimen>
+
+    <dimen name="DetailsItemPaddingLeft">16dp</dimen>
+    <dimen name="DetailsItemPaddingTop">24dp</dimen>
+    <dimen name="DetailsItemPaddingRight">16dp</dimen>
+    <dimen name="DetailsItemPaddingBottom">24dp</dimen>
+    <dimen name="DetailsItemSchoolNameTextSize">18sp</dimen>
+    <dimen name="DetailsItemOverviewParagraphTextSize">13sp</dimen>
+    <dimen name="DetailsItemSatTextSize">15sp</dimen>
+    <dimen name="DetailsItemErrorTextSize">14sp</dimen>
+
+</resources>

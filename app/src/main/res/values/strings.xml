@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Igor Kirianov Demo</string>
+
+    <string name="details_sat_math">SAT Math:</string>
+    <string name="details_sat_reading">SAT Reading:</string>
+    <string name="details_sat_writing">SAT Writing:</string>
+    <string name="details_sat_count">Number of SAT test takers:</string>
+    <string name="details_error">Sorry, no additional details about school.</string>
+
+</resources>

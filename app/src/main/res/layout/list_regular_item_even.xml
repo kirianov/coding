@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    style="@style/ListItemEvenLayout"
+    tools:ignore="RtlHardcoded,RtlCompat,ContentDescription,SmallSp">
+
+    <TextView
+        android:id="@+id/schoolName"
+        style="@style/ListItemEvenSchoolName"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/paragraph" />
+
+    <TextView
+        android:id="@+id/paragraph"
+        style="@style/ListItemEvenParagraph"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/schoolName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/location" />
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/ListItemEvenLocation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/paragraph"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/phoneNumber" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        style="@style/ListItemEvenPhoneNumber"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/location"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

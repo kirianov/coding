@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58B2E3</color>
+    <color name="colorPrimaryDark">#3892C3</color>
+    <color name="colorAccent">#78D0F8</color>
+
+    <color name="list_item_school_name">#086293</color>
+    <color name="list_item_overview_paragraph">#000000</color>
+    <color name="list_item_location">#086293</color>
+    <color name="list_item_phone_number">#606060</color>
+    <color name="list_item_background_odd">#3377D1F2</color>
+    <color name="list_item_background_even">#33A7E1F2</color>
+
+    <color name="details_item_school_name">#086293</color>
+    <color name="details_item_overview_paragraph">#111111</color>
+    <color name="details_item_sat">#086293</color>
+    <color name="details_item_error">#936208</color>
+
+</resources>
